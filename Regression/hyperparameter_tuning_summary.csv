@@ -1,0 +1,4 @@
+Model,Default configuration,Best parameters,Default Test R²,Tuned Test R²,Improvement
+Ridge Regression,alpha=1.0,{'alpha': np.float64(0.5623413251903491)},0.3742409038901333,0.3740620474641121,-0.00017885642602122331
+Random Forest Regressor,"n_estimators=100, max_depth=None, min_samples_leaf=1","{'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 300}",0.4085941447885394,0.4086885887899391,9.444400139968501e-05
+SVR Regressor,"C=1.0, epsilon=0.1, gamma='scale'","{'C': 1, 'epsilon': 0.2, 'gamma': 0.05}",0.3909446492708011,0.3996119214410334,0.008667272170232332

@@ -1,0 +1,11 @@
+#,Algorithm,File,Includes scaler,Size (KB),Test R²,RMSE
+1,Linear Regression,01_linear_regression.joblib,True,1.7,0.3739,0.6481
+2,Ridge Regression,02_ridge_regression.joblib,True,1.6,0.3741,0.648
+3,Lasso Regression,03_lasso_regression.joblib,True,1.6,0.3724,0.6489
+4,ElasticNet Regression,04_elasticnet_regression.joblib,True,1.6,0.372,0.6491
+5,Polynomial Regression,05_polynomial_regression.joblib,True,2.1,0.3739,0.6481
+6,Decision Tree Regressor,06_decision_tree_regressor.joblib,False,2.8,0.249,0.7098
+7,Random Forest Regressor,07_random_forest_regressor.joblib,False,991.6,0.4087,0.6298
+8,Gradient Boosting Regressor,08_gradient_boosting_regressor.joblib,False,39.0,0.3939,0.6377
+9,SVR Regressor,09_svr_regressor.joblib,True,40.3,0.3996,0.6346
+10,KNN Regressor,10_knn_regressor.joblib,True,101.7,0.3606,0.6549

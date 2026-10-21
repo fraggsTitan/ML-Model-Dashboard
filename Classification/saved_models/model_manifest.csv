@@ -1,0 +1,11 @@
+#,Algorithm,File,Includes scaler,Size (KB),Test accuracy,Best params
+1,Logistic Regression,01_logistic_regression.joblib,True,2.3,0.9825,{'C': np.float64(31.622776601683793)}
+2,K-Nearest Neighbors,02_k_nearest_neighbors.joblib,True,108.0,0.7125,"{'metric': 'manhattan', 'n_neighbors': 39, 'weights': 'distance'}"
+3,Gaussian Naive Bayes,03_gaussian_naive_bayes.joblib,False,1.9,0.8275,{'var_smoothing': np.float64(1e-12)}
+4,Decision Tree,04_decision_tree.joblib,False,4.4,0.8725,"{'criterion': 'entropy', 'max_depth': 7, 'min_samples_leaf': 10}"
+5,SVC,05_svc.joblib,True,19.1,0.9725,"{'C': 10, 'kernel': 'linear'}"
+6,Random Forest,06_random_forest.joblib,False,4064.2,0.9025,"{'max_depth': None, 'max_features': 'sqrt', 'n_estimators': 400}"
+7,AdaBoost,07_adaboost.joblib,False,214.3,0.94,"{'estimator': DecisionTreeClassifier(max_depth=3, random_state=42), 'learning_rate': 1.0, 'n_estimators': 300}"
+8,Gradient Boosting,08_gradient_boosting.joblib,False,143.4,0.9325,"{'learning_rate': 0.2, 'max_depth': 2, 'n_estimators': 200, 'subsample': 0.8}"
+9,Bagging,09_bagging.joblib,False,179.4,0.9075,"{'max_features': 1.0, 'max_samples': 0.8, 'n_estimators': 50}"
+10,MLP Neural Network,10_mlp_neural_network.joblib,True,354.4,0.9625,"{'activation': 'logistic', 'alpha': 0.01, 'hidden_layer_sizes': (128, 64)}"

@@ -1,0 +1,5 @@
+#,Model,File,k,Size (KB),Silhouette (test),Davies-Bouldin (full),Calinski-Harabasz (full)
+1,K-Means (k=4),01_k_means_k_4.joblib,4,3.4,0.1356,1.821,322.24
+2,Agglomerative Ward (k=4),02_agglomerative_ward_k_4.joblib,4,9.8,0.1298,2.1221,264.68
+3,K-Means (k=2),03_k_means_k_2.joblib,2,2.7,0.1853,1.9732,414.76
+4,Agglomerative Ward (k=2),04_agglomerative_ward_k_2.joblib,2,8.9,0.1839,2.0928,374.23

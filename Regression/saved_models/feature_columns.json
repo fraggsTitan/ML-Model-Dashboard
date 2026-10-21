@@ -1,0 +1,16 @@
+[
+  "fixed acidity",
+  "volatile acidity",
+  "citric acid",
+  "residual sugar",
+  "chlorides",
+  "free sulfur dioxide",
+  "total sulfur dioxide",
+  "density",
+  "pH",
+  "sulphates",
+  "alcohol",
+  "bound_sulfur_dioxide",
+  "free_so2_ratio",
+  "total_acidity"
+]
